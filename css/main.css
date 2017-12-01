@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+h1 { font-size:120%; }
+
+body{
+       overflow: hidden;
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    padding: 1rem 1.5rem;
+    background-color:azure;
+    transform: translateX(-200%);
+    transition:  all 2s ease;   
+}
+
+.page.active{
+   transform: translateX(0);  
+}
+
+.num{
+    list-style:none;    
+    background-color:cornflowerblue;
+    color:blue;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    margin: 1rem;
+    border-top-left-radius:  50%;
+    border-bottom-left-radius:  50%;
+    border-bottom-right-radius:  50%;
+    float: left;
+}
+
+button {
+    background-color:seagreen;
+    color:blue;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2rem;
+    margin: 1rem;
+    border-top-left-radius:  50%;
+    border-bottom-left-radius:  50%;
+    border-bottom-right-radius:  50%; 
+    float:right;
+    
+}
+
+@media only screen and (min-width: 25em) {
+    * {font-size: 110%;} 
+    h1 {font-size:220%;}
+    .num{height: 5rem;
+         width: 5rem;
+         text-align: center;
+         line-height: 4rem;
+         font-size: 3rem;
+         margin: 1rem;}  
+    button {height: 13rem;
+            width: 13rem;
+            line-height: 4rem;
+            font-size: 3rem;}
+}
+
+@media only screen and (min-width: 38em) {
+    * {font-size: 120%;}
+    h1 {font-size:240%;} 
+    .num{height: 6rem;
+         width: 6rem;
+         text-align: center;
+         line-height: 5rem;
+         font-size: 4rem;
+         margin: 2rem;}  
+    button {height: 14rem;
+            width: 14rem;
+            line-height: 4rem;
+            font-size: 3rem;}
+}
+
+@media only screen and (min-width: 60em) {
+    * {font-size: 130%;}
+    h1 {font-size:260%;}
+    .num{height: 7rem;
+         width: 7rem;
+         text-align: center;
+         line-height: 7rem;
+         font-size: 5rem;
+         margin: 2.5rem;} 
+    button {height: 18rem;
+            width: 18rem;
+            line-height: 5rem;
+            font-size: 4rem;}
+}
+
+@media only screen and (min-width: 90em) {
+    * {font-size: 140%;} 
+    h1 {font-size:300%;}  
+    .num{height: 9rem;
+         width: 9rem;
+         text-align: center;
+         line-height: 9rem;
+         font-size: 7.5rem;
+         margin: 3rem;} 
+   button {height: 20rem;
+            width: 20rem;
+            line-height: 6rem;
+            font-size: 4.5rem;}
+}
+
+
+
+
+
+
+
