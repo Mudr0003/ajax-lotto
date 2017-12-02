@@ -33,7 +33,7 @@ function nav(ev){
 //}
 
 function getNumbers(){
-    let url = "https://localhost/mad9014-lotto/nums.php";
+    let url = "http://localhost/mad9014-lotto/nums.php";
     //steve
     //let url = "http://10.70.172.62/mad9014-lotto/nums.php";
     //cesar
